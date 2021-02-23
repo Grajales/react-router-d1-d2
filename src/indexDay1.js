@@ -10,7 +10,7 @@ import Parks from './data/parks.json';
 
 ReactDOM.render(
   <Router>
-    <App/>
+    <App parks={Parks}/>
   </Router>,
   document.getElementById('root')
 );
